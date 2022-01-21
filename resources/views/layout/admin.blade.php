@@ -11,7 +11,7 @@
 
     <title>Admin Page</title>
 
-    @include('include.style')
+    @include('include.admin.style')
 
 </head>
 
@@ -20,7 +20,7 @@
     <!-- Page Wrapper -->
     <div id="wrapper">
 
-        @include('include.sidebar')
+        @include('include.admin.sidebar')
 
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
@@ -28,7 +28,7 @@
             <!-- Main Content -->
             <div id="content">
 
-                @include('include.navbar')
+                @include('include.admin.navbar')
 
 
                 @yield('content')
@@ -36,7 +36,7 @@
             </div>
             <!-- End of Main Content -->
 
-            @include('include.footer')
+            @include('include.admin.footer')
 
         </div>
         <!-- End of Content Wrapper -->
@@ -69,7 +69,7 @@
         </div>
     </div>
 
-    @include('include.script')
+    @include('include.admin.script')
 
 </body>
 

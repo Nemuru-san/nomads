@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- link css xzoom -->
+    <link rel="stylesheet" href="js/dist/xzoom.css">
+
+    <!-- link gijigo -->
+    <link rel="stylesheet" href="js/gijigo/css/gijgo.min.css">
+
+    <!-- aos css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- link style google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- link style css -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>BWAFWD - NoMADs</title>
+</head>
+
+<body data-aos="fade-down" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+
+    <!-- navbar section -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="navbar-nav me-auto ms-auto me-sm-auto me-lg-0 me-md-auto">
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/logo_nomads.png" alt="">
+                </a>
+            </div>
+
+            <ul class="navbar-nav me-auto d-none d-lg-block">
+                <li>
+                    <span class="text-muted">| &nbsp; expolore the beautiful world</span>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- end -->
+
+    <!-- detail -->
+    <main>
+        <section class="detail-header"></section>
+        <section class="detail-breadcrumb">
+            <div class="container">
+                <div class="row">
+                    <div class="col p-0">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item">paket travel</li>
+                                <li class="breadcrumb-item" aria-current="page">details</li>
+                                <li class="breadcrumb-item active" aria-current="page">checkout</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-8 pl-lg-0">
+                        <div class="card card-item-detail">
+                            <h1>babi panggang</h1>
+                            <p>pulau dewata bali</p>
+
+                            <div class="berangkat">
+                                <table class="table table-responsive-sm text-center">
+                                    <thead>
+                                        <tr>
+                                            <td>picture</td>
+                                            <td>name</td>
+                                            <td>nationality</td>
+                                            <td>VISA</td>
+                                            <td>passport</td>
+                                            <td></td>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <img src="img/prof1.png" height="60">
+                                            </td>
+                                            <td class="align-middle">john doe</td>
+                                            <td class="align-middle">ID</td>
+                                            <td class="align-middle">N/A</td>
+                                            <td class="align-middle">active</td>
+                                            <td class="align-middle">
+                                                <a href="">
+                                                    <img src="img/cencel.png" alt="">
+                                                </a>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                <img src="img/prof1.png" height="60">
+                                            </td>
+                                            <td class="align-middle">john doe</td>
+                                            <td class="align-middle">ID</td>
+                                            <td class="align-middle">N/A</td>
+                                            <td class="align-middle">active</td>
+                                            <td class="align-middle">
+                                                <a href="">
+                                                    <img src="img/cencel.png" alt="">
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="kanggota mt-3">
+                                <h2>add member</h2>
+
+                                <form class="row row-cols-lg-auto g-3 align-items-center mt-2">
+                                    <div class="col-12">
+                                        <label class="visually-hidden" for="username">Username</label>
+                                        <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label class="visually-hidden " for="inlineFormSelectPref ">VISA</label>
+                                        <select class="form-select" id="inlineFormSelectPref ">
+                                            <option value="VISA" selected>VISA</option>
+                                            <option value="30 days">30 days</option>
+                                            <option value="N/A">N/A</option>
+                                        </select>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label class="visually-hidden " for="inlineFormSelectPref ">doe passport</label>
+                                        <div class="input-group me-sm-2">
+                                            <input type="text" class="form-control datepicker" placeholder="doe passport">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 ">
+                                        <button type="submit " class="btn px-4 go">Add Now</button>
+                                    </div>
+                                </form>
+
+                                <h3 class="mt-4 mb-0">note</h3>
+                                <p class="disclaimer">
+                                    You are only able to invite member that has registered in this APP
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 ">
+                        <div class="card card-item-detail card-right ">
+                            <h2>checkout information</h2>
+                            <table class="trip-inform">
+                                <tr>
+                                    <th width="70% ">members</th>
+                                    <td width="30% " class="text-right ">
+                                        2 person
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th width="70% ">additional VISA</th>
+                                    <td width="30% " class="text-right ">
+                                        $190,00
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th width="70%">trip price</th>
+                                    <td width="30" class="text-right ">
+                                        $80.00/persons
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th width="70% ">sub total</th>
+                                    <td width="30% " class="text-right ">
+                                        $280.00
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th width="70% ">total (+unique code)</th>
+                                    <td width="30% " class="text-right text-total">
+                                        <span class="text-blue">$200</span> ,
+                                        <span class="text-orange">88</span>
+                                    </td>
+                                </tr>
+                            </table>
+                            <hr>
+
+                            <h2>payment instructions</h2>
+                            <p class="payment-instruction">
+                                Please complate the payment before you continue the trip
+                            </p>
+
+                            <div class="bank">
+                                <div class="bank-item pb-3">
+                                    <img src="img/credit.png" alt="" class="img-bank">
+                                    <div class="bank-description">
+                                        <h3>PT NoMADs ID</h3>
+                                        <p>
+                                            Bank Central Asia
+                                            <br> 0829 0990 8390
+                                        </p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+
+                                <div class="bank-item pb-3">
+                                    <img src="img/credit.png" alt="" class="img-bank">
+                                    <div class="bank-description">
+                                        <h3>PT NoMADs ID</h3>
+                                        <p>
+                                            Bank Central Asia
+                                            <br> 0829 0990 8390
+                                        </p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="join">
+                            <a href="checkout-success.html" class="btn d-grid join-now mt-4 my-2">i have made payment</a>
+                        </div>
+
+                        <div class="text-center mt-4">
+                            <a href="" class="text-muted">
+                                cencel booking
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- end -->
+
+    <!-- footer -->
+    <footer class="footer mt-5 mb-4 border-top ">
+        <div class="container pt-5 pb-5 ">
+            <div class="row justify-contetn-center ">
+                <div class="col-12 ">
+                    <div class="row ">
+                        <div class="col-12 col-lg-3 ">
+                            <h5>FEATURED</h5>
+                            <ul class="list-unstyled ">
+                                <li>
+                                    <a href=" ">Review</a>
+                                </li>
+                                <li>
+                                    <a href=" ">Comunity</a>
+                                </li>
+                                <li>
+                                    <a href=" ">social media link</a>
+                                </li>
+                                <li>
+                                    <a href=" ">affliate</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-12 col-lg-3 ">
+                            <h5>FEATURED</h5>
+                            <ul class="list-unstyled ">
+                                <li>
+                                    <a href=" ">Review</a>
+                                </li>
+                                <li>
+                                    <a href=" ">Comunity</a>
+                                </li>
+                                <li>
+                                    <a href=" ">social media link</a>
+                                </li>
+                                <li>
+                                    <a href=" ">affliate</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-12 col-lg-3 ">
+                            <h5>FEATURED</h5>
+                            <ul class="list-unstyled ">
+                                <li>
+                                    <a href=" ">Review</a>
+                                </li>
+                                <li>
+                                    <a href=" ">Comunity</a>
+                                </li>
+                                <li>
+                                    <a href=" ">social media link</a>
+                                </li>
+                                <li>
+                                    <a href=" ">affliate</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-12 col-lg-3 ">
+                            <h5>FEATURED</h5>
+                            <ul class="list-unstyled ">
+                                <li>
+                                    <a href=" ">Review</a>
+                                </li>
+                                <li>
+                                    <a href=" ">Comunity</a>
+                                </li>
+                                <li>
+                                    <a href=" ">social media link</a>
+                                </li>
+                                <li>
+                                    <a href=" ">affliate</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid ">
+            <div class="row border-top justify-content-center align-items-center pt-4 ">
+                <div class="col-auto text-gray-500 font-weight-light ">
+                    2019 Copyright Nomads • All rights reserved • Made in Jakarta
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end -->
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js " integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js " integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13 " crossorigin="anonymous "></script>
+    -->
+
+    <!-- jquery -->
+    <script src="js/jquery/jquery-3.6.0.min.js "></script>
+
+    <!-- retina js -->
+    <!-- <script src="js/retinaJs/retina.min.js "></script> -->
+
+    <!-- gijigo js -->
+    <script src="js/gijigo/js/gijgo.min.js"></script>
+
+    <!-- aos js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- xzoom library js -->
+    <script src="js/dist/xzoom.min.js "></script>
+    <script>
+        $(document).ready(function() {
+            $('.xzoom, .xzoom-gallery').xzoom({
+                zoomWidth: 400,
+                defaultScale: 1,
+                title: false,
+                tint: '#333',
+                Xoffset: 28,
+            });
+
+            $('.datepicker').datepicker({
+                uiLibrary: 'bootstrap4',
+                icons: {
+                    rightIcon: '<img src="img/date.png" alt="">'
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
