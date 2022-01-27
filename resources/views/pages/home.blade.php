@@ -73,7 +73,7 @@
                                         pulau dewata
                                     </div>
                                     <div class="travel-button mt-auto">
-                                        <a href="detail.html" class="btn btn-travel-detail px-4">
+                                        <a href="{{ route('detail') }}" class="btn btn-travel-detail px-4">
                                             view details
                                         </a>
                                     </div>
@@ -88,7 +88,7 @@
                                         pulau dewata
                                     </div>
                                     <div class="travel-button mt-auto">
-                                        <a href="" class="btn btn-travel-detail px-4">
+                                        <a href="{{ route('detail') }}" class="btn btn-travel-detail px-4">
                                             view details
                                         </a>
                                     </div>
@@ -103,7 +103,7 @@
                                         pulau dewata
                                     </div>
                                     <div class="travel-button mt-auto">
-                                        <a href="" class="btn btn-travel-detail px-4">
+                                        <a href="{{ route('detail') }}" class="btn btn-travel-detail px-4">
                                             view details
                                         </a>
                                     </div>
@@ -118,7 +118,7 @@
                                         pulau dewata
                                     </div>
                                     <div class="travel-button mt-auto">
-                                        <a href="" class="btn btn-travel-detail px-4">
+                                        <a href="{{ route('detail') }}" class="btn btn-travel-detail px-4">
                                             view details
                                         </a>
                                     </div>

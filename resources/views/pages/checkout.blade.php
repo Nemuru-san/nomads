@@ -22,7 +22,7 @@
                         </div>
                     </div>
 
-                    <div class="row">
+                    <div class="row" data-aos="fade-up">
                         <div class="col-lg-8 pl-lg-0">
                             <div class="card card-item-detail">
                                 <h1>babi panggang</h1>
@@ -113,7 +113,9 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-4 ">
+                        <div class="col-lg-4 " data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
                             <div class="card card-item-detail card-right ">
                                 <h2>checkout information</h2>
                                 <table class="trip-inform">
@@ -188,11 +190,11 @@
                             </div>
 
                             <div class="join">
-                                <a href="checkout-success.html" class="btn d-grid join-now mt-4 my-2">i have made payment</a>
+                                <a href="{{ route(('success')) }}" class="btn d-grid join-now mt-4 my-2">i have made payment</a>
                             </div>
 
                             <div class="text-center mt-4">
-                                <a href="" class="text-muted">
+                                <a href="{{ route('checkout') }}" class="text-muted">
                                     cencel booking
                                 </a>
                             </div>
